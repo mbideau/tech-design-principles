@@ -24,6 +24,7 @@ More in-depth thoughts below.
     - [Business have to consider: developer availability, and communication on the technology chosen](#business-have-to-consider-developer-availability-and-communication-on-the-technology-chosen)
     - [Developers have to consider: their attractiveness, their level of engineering, and fun](#developers-have-to-consider-their-attractiveness-their-level-of-engineering-and-fun)
       - [Beginner developer: choose the programming language balancing career path and fun](#beginner-developer-choose-the-programming-language-balancing-career-path-and-fun)
+- [Ecosystem maturity is trickier than you think](#ecosystem-maturity-is-trickier-than-you-think)
 - [Full rewrite to another language is okay: that allow to prototype quickly first](#full-rewrite-to-another-language-is-okay-that-allow-to-prototype-quickly-first)
 - [Know your design patterns, regardless of the language](#know-your-design-patterns-regardless-of-the-language)
 - [Combine multiple programming languages into one program efficiently](#combine-multiple-programming-languages-into-one-program-efficiently)
@@ -166,6 +167,44 @@ For example see : [Cobol](https://fr.wikipedia.org/wiki/Cobol), or
 [Fortran](https://fortran-lang.org/).
 
 
+## Ecosystem maturity is trickier than you think
+
+Trying to analyse a programming language maturity is not an easy task. It depends on what you
+consider :
+
+- **Age**: how long the programming language has been around. In itself it is not a very good
+  metric.
+
+- **Users**: how many people/companies are using the programming language. It is a much better
+  metric but with some pitfals. How many users are still **actively using it** ? What **kind of
+  users** (lots of individuals or big corporations) ? Is there a large number of users currently
+  switching to another programming language, and why ?
+
+- **Contributors**: how many people/companies are contributing to the codebase and documentation ? A
+  very intersintg metric. Are there a lot of **paid contributors** ?
+
+- **Governance**: how the decision about the programming language are made ? Difficult metric.
+  Different kinds of governance have different effects depending on the persons involved and other
+  context. Two type are often seen : the
+  [benevolent didactor](https://en.wikipedia.org/wiki/Benevolent_dictatorship), and the
+  [collaborative governance](https://en.wikipedia.org/wiki/Collaborative_governance).
+
+- **Funding**: how much funding does the organization managing the programming language gets ? From
+  whom ? A very important metric, often forgotten.
+
+- **Use cases** or kinds of projects: what kind of projects are developed with the programming
+  language ? Personal toys, big enterprise solutions, web sites, backends, CLI tools, etc. A metric
+  you really should pay attention to, even if you are a very talented engineer (and knows what is
+  feasible with that technology).
+
+- **Libraries**: the number and type of libraries or modules the ecosystem provides. Middle
+  importance metric. How well are they maintained ? From whom ? With what funding. As long as the
+  one you need are available and maintained you will be okay.
+
+- **Frameworks**: the number and types of frameworks. A tricky metric. It might have few frameworks
+  with a very good quality and flexibility, or a lot of bad ones (proor enginerring quality).
+
+
 ## Full rewrite to another language is okay: that allow to prototype quickly first
 
 If you accept the entire re-writing of the project to another programming language as a normal step
@@ -205,6 +244,7 @@ Yes you will need to adapt your developer experience to a new ecosystem after ha
 another one, but that cost might pay back by large amount depending if it has given you a
 time-to-market advantage, or a flexibility you were needing at the early stage of your project.
 
+
 ## Know your design patterns, regardless of the language
 
 The more you know, identify and practice design patterns, the more you will be able to
@@ -229,6 +269,7 @@ together is :
 - [Google Protocol Buffer](https://developers.google.com/protocol-buffers/): for
   serializing/deserializing objects
 - [ZeroMQ](https://zeromq.org/): for passing object from one language to another with low latency
+
 
 ## Rarely relevant: using a DSL or creating your own language
 
