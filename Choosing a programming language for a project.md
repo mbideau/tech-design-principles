@@ -3,7 +3,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 When you start a new development project, you have to pick a main programming language.
-This is not a trivial choice and you are not helped with all the fanatics flame wars on Internet.
+This is not a trivial choice, and you are not helped with all the fanatics flame wars on the Internet.
 
 I will try to explain how I do it, and why I am more confident in that approach today with a little
 experience now (20 years mostly).
@@ -66,16 +66,16 @@ Try not to be too biased here, and beware of your emotions :
   deadline, or the technical feasibility of what you want to achieve, or the poor quality of the
   ecosystem, or the sustainability of that new language/framework in time, and you risk ending up
   like a balloon bouncing from one language/framework/toolchain to another, and experiment fatigue
-  (like the well know [JS fatigue](https://segment.com/blog/the-deep-roots-of-js-fatigue/))
+  (like the well known [JS fatigue](https://segment.com/blog/the-deep-roots-of-js-fatigue/))
 
 - **reluctance** to learn something new: you might pay a high price for staying with technologies
-  that are becoming obsoletes, like not finding developers, or high salary, or an ecosystem
-  deperishing, with upstream bug not fixed, a less rapid development, technical difficulties to
+  that are becoming obsoletes, like not finding developers, or high salary, or a deperishing
+  ecosystem, with upstream bugs not fixed, a less rapid development, technical difficulties to
   adopt a new paradigm within that language ecosystem, being seen as not innovative or outdated
 
 - **proudness** to not follow the crowd: you might miss the chance to improve, to get interesting
-  insights and learn other way to code (better quality, efficiency, maintainability, etc.), and
-  ensure your are not doing things wrong, in a deprecated way, or sub-optimally, and sometimes you
+  insights and learn other ways to code (better quality, efficiency, maintainability, etc.), and
+  ensure you are not doing things wrong, in a deprecated way, or sub-optimally, and sometimes you
   might be late on a technological shift that provides a competitive advantage or is an economical
   imperative (Nokia rings a bell ? 😆). It is less real with a language but for example, the need
   to switch to a new technology stack too late, might happen at a bad time (less resources) and
@@ -86,12 +86,11 @@ Try not to be too biased here, and beware of your emotions :
   will offer you the best options, but this isn't always true, especially nowadays when big corps
   are releasing their techs/languages with an appealing call to use those, but it might be totally
   overkill for your needs or resources (if you are not a big corp which heart is digital). How
-  many web designer/agencies have chosen *React* and then had debugging issues they would have
-  solved way quicker if their stack was simpler ? You can also end up in vendor lock-in (and if the
+  many web designers/agencies have chosen *React* and then had debugging issues they would have
+  solved way quicker if their stack was simpler? You can also end up in vendor lock-in (and if the
   vendor change its policy in a negative way for you, it might kill your business… not really a
   thing for a programming language, but very real with HTTP API).
-
-
+  
 ## Context matters
 
 Captain obvious here. No wait, there is more to it.
@@ -104,22 +103,21 @@ student project, and in some way of a startup project.
 
 It all depends on the expectations versus your resources.
 
-A word of caution: if you/your project manager accept infeasible deadline, you can't change that
+A word of caution: if you/your project manager accepts infeasible deadlines, you can't change that
 with a programming language, same apply for quality, if you are not given the means to provide it,
 the programming language won't help you, and if you do not work with a proper methodology
 (iterations, testing, documentation, etc.), the programming language would not do any good.
 
-
 ### Your resources (money, humans, time and skills)
 
-If your team master only one programming language, and you are asked to produce a quality
-project within short delay, the best option is to stick with it. What a surprise, right ?!  
-Yes, sound obvious, but it doesn't hurt to state again that, even if a programming language X is
+If your team masters only one programming language, and you are asked to produce a quality
+project within short delay, the best option is to stick with it. What a surprise, right?!
+Yes, sounds obvious, but it doesn't hurt to state that again, even if a programming language X is
 objectively better suited for coding the project P, the real best programming language might be Z
 because of your resources.
 
-On the contrary, if you have someone in your team that knows a programming language that other don't
-and would provide a significant advantage for the job, and you are certain than you have time to
+On the contrary, if you have someone in your team that knows a programming language that others don't
+and would provide a significant advantage for the job, and you are certain that you have time to
 switch few people to it, go ahead and embrace novelty.
 
 Finally, if you know multiple languages, you have to conduct a study (short or in-depth) to analyse
